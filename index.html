@@ -10,9 +10,9 @@ body, html {
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: rgb(214, 130, 130);
-  overflow: hidden;
+  
   }
-
+*{margin: 0;padding: 0;}
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
   opacity: 0.65;
@@ -28,7 +28,6 @@ body, html {
 
 .caption {
   position: absolute;
-  left: 0;
   top: 20%;
   width: 100%;
   text-align: center;
@@ -36,15 +35,13 @@ body, html {
 }
 
 .caption .border {
-left: 0;
    top:20%;
-  padding: 18px;
+  /* padding: 18px; */
   font-size: 25px;
   letter-spacing: 10px;
 }
 
 p {
-   padding-top:1%;
   letter-spacing: 9px;
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
@@ -53,22 +50,53 @@ p {
 .col-sm-8, .col-sm-4{
    top:50%;
 }
+a{
+color: #fff;
+font-size: 13pt;
+}
+a:hover{
+  text-decoration: none;
+  color:#ffe6cc;
+}
    </style>
    <title>Fantino Cafe</title>
 </head>
-<body cz-shortcut-listen="true">
+<body cz-shortcut-listen="true" class="content-fluid">
 
       <div class="bgimg-1">
         <div class="caption row justify-content-center">
-          <span class="col-sm-8  col-md-12 col-lg-12  " style="margin-left:-10px;">
+          <span class="col-xs-6 col-sm-6  col-md-12 col-lg-12  ">
              <img src="image/fantino-cup4.png" alt="fantino Cafe Cup">
           </span>
           <br>
           
           </span>
-          <span class="col-sm-4  col-md-12 col-lg-12 ">
-               <p>Comming Soon...! </p>
+          <div class="col-xs-6 col-sm-6  col-md-12 col-lg-12 ">
+               <p>Comming Soon... </p>
 
+                  <div class="row justify-content-center  " ">
+
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 justify-content-center ">
+                            <a href="https://www.instagram.com/fantino_cafe/"  >
+                              <img src="image/instagram.png" class="rounded " alt="Fantino Cafe instagram"> 
+                              <span class="">@fantino_cafe </span></a>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 justify-content-center">
+                            <a href="tel:"+982122215541  >
+                              <img src="image/phone.png" class="rounded " alt="Fantino Cafe Phone"> 
+                              <span class=""> +98 21 22215541</span></a>
+                        </div>
+
+                          <div class="embed-responsive embed-responsive-16by9" style="left:15;">
+                              <iframe  class="embed-responsive-item"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.086466998449!2d51.446355751072794!3d35.79781053107905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e05b838ce312d%3A0x2b8b4079f449e7c7!2sFantino+cafe!5e0!3m2!1sen!2sus!4v1544465362476" width="400" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>                            </div>
+
+
+                          
+                
+                  </div>
+                </div>
+            
         </div>
       </div>
 
